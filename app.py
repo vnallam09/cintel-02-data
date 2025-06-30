@@ -10,7 +10,6 @@ penguins_df = palmerpenguins.load_penguins()
 
 ui.page_opts(title="Teja's Penguin Data",fillable=True)
 
-ui.page_opts(title="Filling layout", fillable=True)
 with ui.layout_columns():
 
     @render_plotly
